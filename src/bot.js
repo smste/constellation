@@ -10,33 +10,33 @@ const guildsSchema = require('./resources/structures/guilds-structure');
 const eventsPath = path.join(__dirname, './resources/events');
 const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
 
-client.on('guildCreate', async (guild) => {
-	const id = guild.id;
-	const result = null
+// client.on('guildCreate', async (guild) => {
+// 	const id = guild.id;
+// 	const result = null
 
-	try {
-	result = await guildsSchema.findOne({
-		guildid,
-		bannedGuild,
-	})} finally {
-		console.log("hello");
-	}
+// 	try {
+// 	result = await guildsSchema.findOne({
+// 		guildid,
+// 		bannedGuild,
+// 	})} finally {
+// 		console.log("hello");
+// 	}
 
-	await mongo().then(async (mongoose) => {
-	try {
-		const data = {
-		guildid: id,
-		bannedGuild: false,
-		};
+// 	await mongo().then(async (mongoose) => {
+// 	try {
+// 		const data = {
+// 		guildid: id,
+// 		bannedGuild: false,
+// 		};
 	
-	if (!result) {
-		await new guildsSchema(data).save()
-	}
-	} finally {
-		mongoose.connection.close()
-	};
-	});
-});
+// 	if (!result) {
+// 		await new guildsSchema(data).save()
+// 	}
+// 	} finally {
+// 		mongoose.connection.close()
+// 	};
+// 	});
+// });
 
 for (const file of eventFiles) {
 	const filePath = path.join(eventsPath, file);
