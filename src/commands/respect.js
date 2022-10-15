@@ -7,7 +7,7 @@ module.exports = {
 
     async execute(interaction) {
         const amount = Math.floor(Math.random() * (200 - 1 + 1)) + 1;
-        
+
         return interaction.reply({content: `Thank you for paying your respects, here is ${amount}`});
     }
-};
+}; 
