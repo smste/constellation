@@ -1,0 +1,82 @@
+{
+    "economy": {
+        "master":  {
+            "enabled": true
+        },
+        "permissions": {
+            "balance": true,
+            "beg": true,
+            "buy": true,
+            "crime": true,
+            "daily": true,
+            "deposit": true,
+            "dig": true,
+            "fish": true,
+            "hunt": true,
+            "leaderboard": true,
+            "lottery": true,
+            "rob": true,
+            "sell": true,
+            "store": true,
+            "weekly": true,
+            "withdraw": true,
+            "work": true
+        }
+    },
+    "fun": {
+        "master":  {
+            "enabled": true
+        },
+        "permissions": {
+            "animal": true
+        }
+    },
+    "games": {
+        "master":  {
+            "enabled": true
+        },
+        "permissions": {
+            "8ball": true,
+            "bet": true,
+            "rockpaperscissors": true,
+            "trivia": true
+        }
+    },
+    "moderation": {
+        "master":  {
+            "enabled": true
+        },
+        "permissions": {
+            "kick": true,
+            "lockdown": true,
+            "perm-ban": true,
+            "soft-ban": true,
+            "timed-ban": true,
+            "timeout": true
+
+        }
+    },
+    "music": {
+        "master":  {
+            "enabled": true
+        },
+        "permissions": {
+            "play": true,
+            "queue": true,
+            "stop": true
+        }
+    },
+    "utility": {
+        "master":  {
+            "enabled": true
+        },
+        "permissions": {
+            "cleardata": true,
+            "giveaway": true,
+            "help": true,
+            "reactionroles": true,
+            "report": true,
+            "tickets": true
+        }
+    }
+}
