@@ -47,12 +47,18 @@
             "enabled": true
         },
         "permissions": {
+            "case": true,
             "kick": true,
+            "lock": true,
             "lockdown": true,
-            "perm-ban": true,
-            "soft-ban": true,
-            "timed-ban": true,
-            "timeout": true
+            "moderations": true,
+            "modlogs": true,
+            "ban": true,
+            "timeout": true,
+            "unban": true,
+            "unwarn": true,
+            "warn": true,
+            "warnings": true
 
         }
     },
